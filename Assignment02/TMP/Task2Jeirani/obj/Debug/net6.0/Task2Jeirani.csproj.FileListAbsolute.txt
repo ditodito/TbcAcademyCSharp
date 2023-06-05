@@ -1,0 +1,15 @@
+C:\Apps\C#\Assignment02\TMP\Task2Jeirani\bin\Debug\net6.0\Task2Jeirani.exe
+C:\Apps\C#\Assignment02\TMP\Task2Jeirani\bin\Debug\net6.0\Task2Jeirani.deps.json
+C:\Apps\C#\Assignment02\TMP\Task2Jeirani\bin\Debug\net6.0\Task2Jeirani.runtimeconfig.json
+C:\Apps\C#\Assignment02\TMP\Task2Jeirani\bin\Debug\net6.0\Task2Jeirani.dll
+C:\Apps\C#\Assignment02\TMP\Task2Jeirani\bin\Debug\net6.0\Task2Jeirani.pdb
+C:\Apps\C#\Assignment02\TMP\Task2Jeirani\obj\Debug\net6.0\Task2Jeirani.csproj.AssemblyReference.cache
+C:\Apps\C#\Assignment02\TMP\Task2Jeirani\obj\Debug\net6.0\Task2Jeirani.GeneratedMSBuildEditorConfig.editorconfig
+C:\Apps\C#\Assignment02\TMP\Task2Jeirani\obj\Debug\net6.0\Task2Jeirani.AssemblyInfoInputs.cache
+C:\Apps\C#\Assignment02\TMP\Task2Jeirani\obj\Debug\net6.0\Task2Jeirani.AssemblyInfo.cs
+C:\Apps\C#\Assignment02\TMP\Task2Jeirani\obj\Debug\net6.0\Task2Jeirani.csproj.CoreCompileInputs.cache
+C:\Apps\C#\Assignment02\TMP\Task2Jeirani\obj\Debug\net6.0\Task2Jeirani.dll
+C:\Apps\C#\Assignment02\TMP\Task2Jeirani\obj\Debug\net6.0\refint\Task2Jeirani.dll
+C:\Apps\C#\Assignment02\TMP\Task2Jeirani\obj\Debug\net6.0\Task2Jeirani.pdb
+C:\Apps\C#\Assignment02\TMP\Task2Jeirani\obj\Debug\net6.0\Task2Jeirani.genruntimeconfig.cache
+C:\Apps\C#\Assignment02\TMP\Task2Jeirani\obj\Debug\net6.0\ref\Task2Jeirani.dll

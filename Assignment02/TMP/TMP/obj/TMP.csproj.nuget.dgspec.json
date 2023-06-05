@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Apps\\C#\\TMP\\TMP\\TMP.csproj": {}
+    "C:\\Apps\\C#\\Assignment02\\TMP\\TMP\\TMP.csproj": {}
   },
   "projects": {
-    "C:\\Apps\\C#\\TMP\\TMP\\TMP.csproj": {
+    "C:\\Apps\\C#\\Assignment02\\TMP\\TMP\\TMP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Apps\\C#\\TMP\\TMP\\TMP.csproj",
+        "projectUniqueName": "C:\\Apps\\C#\\Assignment02\\TMP\\TMP\\TMP.csproj",
         "projectName": "TMP",
-        "projectPath": "C:\\Apps\\C#\\TMP\\TMP\\TMP.csproj",
+        "projectPath": "C:\\Apps\\C#\\Assignment02\\TMP\\TMP\\TMP.csproj",
         "packagesPath": "C:\\Users\\Dkhanishvili\\.nuget\\packages\\",
-        "outputPath": "C:\\Apps\\C#\\TMP\\TMP\\obj\\",
+        "outputPath": "C:\\Apps\\C#\\Assignment02\\TMP\\TMP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
