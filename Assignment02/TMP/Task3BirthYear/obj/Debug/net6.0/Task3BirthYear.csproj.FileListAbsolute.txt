@@ -1,0 +1,15 @@
+C:\Apps\C#\Assignment02\TMP\Task3BirthYear\obj\Debug\net6.0\Task3BirthYear.csproj.AssemblyReference.cache
+C:\Apps\C#\Assignment02\TMP\Task3BirthYear\obj\Debug\net6.0\Task3BirthYear.GeneratedMSBuildEditorConfig.editorconfig
+C:\Apps\C#\Assignment02\TMP\Task3BirthYear\obj\Debug\net6.0\Task3BirthYear.AssemblyInfoInputs.cache
+C:\Apps\C#\Assignment02\TMP\Task3BirthYear\obj\Debug\net6.0\Task3BirthYear.AssemblyInfo.cs
+C:\Apps\C#\Assignment02\TMP\Task3BirthYear\obj\Debug\net6.0\Task3BirthYear.csproj.CoreCompileInputs.cache
+C:\Apps\C#\Assignment02\TMP\Task3BirthYear\bin\Debug\net6.0\Task3BirthYear.exe
+C:\Apps\C#\Assignment02\TMP\Task3BirthYear\bin\Debug\net6.0\Task3BirthYear.deps.json
+C:\Apps\C#\Assignment02\TMP\Task3BirthYear\bin\Debug\net6.0\Task3BirthYear.runtimeconfig.json
+C:\Apps\C#\Assignment02\TMP\Task3BirthYear\bin\Debug\net6.0\Task3BirthYear.dll
+C:\Apps\C#\Assignment02\TMP\Task3BirthYear\bin\Debug\net6.0\Task3BirthYear.pdb
+C:\Apps\C#\Assignment02\TMP\Task3BirthYear\obj\Debug\net6.0\Task3BirthYear.dll
+C:\Apps\C#\Assignment02\TMP\Task3BirthYear\obj\Debug\net6.0\refint\Task3BirthYear.dll
+C:\Apps\C#\Assignment02\TMP\Task3BirthYear\obj\Debug\net6.0\Task3BirthYear.pdb
+C:\Apps\C#\Assignment02\TMP\Task3BirthYear\obj\Debug\net6.0\Task3BirthYear.genruntimeconfig.cache
+C:\Apps\C#\Assignment02\TMP\Task3BirthYear\obj\Debug\net6.0\ref\Task3BirthYear.dll
