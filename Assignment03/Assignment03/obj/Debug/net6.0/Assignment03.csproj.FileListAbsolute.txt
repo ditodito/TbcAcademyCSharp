@@ -1,0 +1,15 @@
+C:\Apps\C#\Assignment03\Assignment03\bin\Debug\net6.0\Assignment03.exe
+C:\Apps\C#\Assignment03\Assignment03\bin\Debug\net6.0\Assignment03.deps.json
+C:\Apps\C#\Assignment03\Assignment03\bin\Debug\net6.0\Assignment03.runtimeconfig.json
+C:\Apps\C#\Assignment03\Assignment03\bin\Debug\net6.0\Assignment03.dll
+C:\Apps\C#\Assignment03\Assignment03\bin\Debug\net6.0\Assignment03.pdb
+C:\Apps\C#\Assignment03\Assignment03\obj\Debug\net6.0\Assignment03.csproj.AssemblyReference.cache
+C:\Apps\C#\Assignment03\Assignment03\obj\Debug\net6.0\Assignment03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Apps\C#\Assignment03\Assignment03\obj\Debug\net6.0\Assignment03.AssemblyInfoInputs.cache
+C:\Apps\C#\Assignment03\Assignment03\obj\Debug\net6.0\Assignment03.AssemblyInfo.cs
+C:\Apps\C#\Assignment03\Assignment03\obj\Debug\net6.0\Assignment03.csproj.CoreCompileInputs.cache
+C:\Apps\C#\Assignment03\Assignment03\obj\Debug\net6.0\Assignment03.dll
+C:\Apps\C#\Assignment03\Assignment03\obj\Debug\net6.0\refint\Assignment03.dll
+C:\Apps\C#\Assignment03\Assignment03\obj\Debug\net6.0\Assignment03.pdb
+C:\Apps\C#\Assignment03\Assignment03\obj\Debug\net6.0\Assignment03.genruntimeconfig.cache
+C:\Apps\C#\Assignment03\Assignment03\obj\Debug\net6.0\ref\Assignment03.dll
