@@ -9,9 +9,6 @@ for (int i = 0; i < numbers.Length; i++)
     if (int.TryParse(strings[i], out int val))
     {
         numbers[i] = val;
-    } else
-    {
-        numbers[i] = 0;
     }
 }
 
@@ -20,7 +17,7 @@ for (int i = 0; i < numbers.Length; i++)
 int counter = 0;
 int sum = 0;
 
-foreach(int number in numbers.ToArray())
+foreach(int number in numbers)
 {
     if (number > 0)
     {
@@ -29,4 +26,4 @@ foreach(int number in numbers.ToArray())
     }
 }
 
-Console.WriteLine("Sum of positive numbers are {0}, avarage is {1}", sum, (double) sum / (double) counter);
+Console.WriteLine("Sum of positive numbers are {0}, avarage is {1}", sum, (double) sum / counter);

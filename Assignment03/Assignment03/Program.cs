@@ -1,14 +1,14 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Enter integer number:");
-bool isValidNumber = int.TryParse(Console.In.ReadLine(), out int number);
+bool isValidNumber = int.TryParse(Console.In.ReadLine(), out int number) && number >= 2;
 
 if (!isValidNumber)
 {
     Console.WriteLine("Invalid number, please try again!");
+    return;
 }
 
 bool isSimple = true;
-number = Math.Abs(number);
 
 for (int i = 2; i < number; i++)
 {

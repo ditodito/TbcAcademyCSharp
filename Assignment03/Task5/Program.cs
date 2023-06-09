@@ -11,15 +11,11 @@ void mainProgram()
     
     while (!isValidMinNumber)
     {
-        isValidMinNumber = int.TryParse(Console.ReadLine(), out int val);
+        isValidMinNumber = int.TryParse(Console.ReadLine(), out minNumber);
         
         if (!isValidMinNumber)
         {
             Console.WriteLine("Invalid min number, enter valid number:");
-        }
-        else {
-            minNumber = val;
-
         }
     }
 
@@ -31,20 +27,17 @@ void mainProgram()
 
     while (!isValidMaxNumber)
     {
-        isValidMaxNumber = int.TryParse(Console.ReadLine(), out int val);
+        isValidMaxNumber = int.TryParse(Console.ReadLine(), out maxNumber);
         
         if (!isValidMaxNumber)
         {
             Console.WriteLine("Invalid max number, enter valid number:");
         }
-        else {
-            maxNumber = val;
-        }
     }
 
     // Execute program
     Random random = new Random();
-    int randomNumbr = random.Next(minNumber, maxNumber);
+    int randomNumbr = random.Next(minNumber, maxNumber + 1);
     //Console.WriteLine(randomNumbr);
 
     int tryNumber = 0;
@@ -75,7 +68,7 @@ void mainProgram()
     Console.WriteLine("You used {0} try to guess number.", tryNumber);
 
     // Try again block
-    Console.WriteLine("Try again: Yes, No", tryNumber);
+    Console.WriteLine("Try again: Yes, No");
     
     string cont = Console.ReadLine().ToLower();
     
