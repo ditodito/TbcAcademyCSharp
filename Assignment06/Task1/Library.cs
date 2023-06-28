@@ -14,7 +14,6 @@ namespace LibrarySystem
             get {
                 if (index >= _books.Count || index < 0)
                 {
-                    //return _books.Last();
                     throw new IndexOutOfRangeException("Invalid index number (" + index + ") must be (>=0 and < " + _books.Count + ")");
                 }
 
@@ -23,7 +22,7 @@ namespace LibrarySystem
 
             set
             {
-                if (index <= _books.Count)
+                if (index <= _books.Count && index >= 0)
                 {
                     _books[index] = value;
                 }
@@ -50,7 +49,7 @@ namespace LibrarySystem
 
         public void RemoveBook(int index)
         {
-            if (index < _books.Count)
+            if (index < _books.Count && index >= 0)
             {
                 _books.RemoveAt(index);
             }
@@ -58,8 +57,13 @@ namespace LibrarySystem
 
         public Book FindBook(string search)
         {
-            string searchKey = search.ToLower();
-            return _books.Find(book => book.Title.ToLower().Equals(searchKey) || book.Author.ToLower().Equals(searchKey));
+            if (String.IsNullOrEmpty(search))
+            {
+                return default;
+            }
+
+            return _books.Find(book => String.Equals(book.Title, search, StringComparison.OrdinalIgnoreCase)
+                || String.Equals(book.Author, search, StringComparison.OrdinalIgnoreCase));
         }
     }
 }

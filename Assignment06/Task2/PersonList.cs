@@ -30,7 +30,7 @@ namespace Task2
         {
             get
             {
-                if (index >= _persons.Length)
+                if (index >= _persons.Length || index < 0)
                 {
                     throw new IndexOutOfRangeException("Index " + index + " isn't in range");
                 }
@@ -40,7 +40,7 @@ namespace Task2
 
             set
             {
-                if (index >= _persons.Length)
+                if (index >= _persons.Length || index < 0)
                 {
                     throw new IndexOutOfRangeException("Index " + index + " isn't in range");
                 }
@@ -80,7 +80,7 @@ namespace Task2
 
             Person[] persons = new Person[_persons.Length + 1];
 
-            for (int i = 0; i < persons.Length; i++)
+            for (int i = 0; i < persons.Length; i++) 
             {
                 if (i < index)
                 {
@@ -113,7 +113,7 @@ namespace Task2
 
             int j = 0;
 
-            for (int i = 0; i < persons.Length; i++)
+            for (int i = 0; i < persons.Length; i++) 
             {
                 if (i < index)
                 {
@@ -144,16 +144,8 @@ namespace Task2
                 return false;
             }
 
-            for (int i = 0; i < _persons.Length; i++)
-            {
-                if (i == index)
-                {
-                    person = _persons[i];
-                    return true;
-                }
-            }
-
-            return false;
+            person = _persons[index];
+            return true;
         }
 
         public bool GetList(int index, int elementNumber, out Person[] elements)
@@ -293,7 +285,7 @@ namespace Task2
 
             for (int i = 0; i < _persons.Length; i++)
             {
-                if (_persons[i].Name.ToLower() == name.ToLower())
+                if (String.Equals(_persons[i].Name, name, StringComparison.OrdinalIgnoreCase))
                 {
                     person = _persons[i];
                     break;

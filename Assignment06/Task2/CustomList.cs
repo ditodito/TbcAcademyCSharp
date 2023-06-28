@@ -29,7 +29,7 @@ namespace Task2
 
         public T this[int index] {
             get { 
-                if (index >= _elements.Length)
+                if (index >= _elements.Length || index < 0)
                 {
                     throw new IndexOutOfRangeException("Index " + index + " isn't in range");
                 }
@@ -38,7 +38,7 @@ namespace Task2
             }
 
             set {
-                if (index >= _elements.Length)
+                if (index >= _elements.Length || index < 0)
                 {
                     throw new IndexOutOfRangeException("Index " + index + " isn't in range");
                 }
@@ -144,16 +144,8 @@ namespace Task2
                 return false;
             }
 
-            for (int i = 0; i < _elements.Length; i++)
-            {
-                if (i == index)
-                {
-                    element = _elements[i];
-                    return true;
-                }
-            }
-
-            return false;
+            element = _elements[index];
+            return true;
         }
 
         public bool GetList(int index, int elementNumber, out T[] elements)

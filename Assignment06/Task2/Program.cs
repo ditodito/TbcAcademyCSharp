@@ -24,10 +24,7 @@ list.InsertList(new Person[] { p6, p7 }, 3);
 list.InsertList(new Person[] { p9, p10  }, 6);
 
 Console.WriteLine("Count of list: " + list.Cuunt);
-for (int i = 0; i < list.items.Length; i++)
-{
-    Console.WriteLine(list.items[i].Name);
-}
+printArray(list.items);
 
 Person gp1;
 if (list.GetElement(6, out gp1)) {
@@ -48,37 +45,23 @@ if (list.GetList(6, 3, out gl1))
 Console.WriteLine("======RemoveElement======");
 list.RemoveElement(p5);
 Console.WriteLine("Count of list: " + list.Cuunt);
-for (int i = 0; i < list.items.Length; i++)
-{
-    Console.WriteLine(list.items[i].Name);
-}
+printArray(list.items);
 
 Console.WriteLine("======RemoveList======");
 list.RemoveList(new Person[] {p2, p4, p6, p8});
 Console.WriteLine("Count of list: " + list.Cuunt);
-for (int i = 0; i < list.items.Length; i++)
-{
-    Console.WriteLine(list.items[i].Name);
-}
+printArray(list.items);
 
-
-//list[45] = p7;
-//Console.WriteLine("Count of list: " + list[4].Name);
 
 Console.WriteLine("======Clear======");
 list.Clear();
 Console.WriteLine("Count of list: " + list.Cuunt);
 
-/*Console.WriteLine("Find ======");
-Person find = list.Find("Person2");
-
-list.Clear();
-Console.WriteLine("After clear: " + list.Cuunt);*/
-
-
-//Console.WriteLine(find.Name);
-
-
-
-
+void printArray(Person[] items)
+{
+    for (int i = 0; i < items.Length; i++)
+    {
+        Console.WriteLine(items[i].Name);
+    }
+} 
 

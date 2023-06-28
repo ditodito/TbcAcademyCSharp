@@ -9,10 +9,10 @@ namespace LibrarySystem
 {
     class Book
     {
-        public string Title;
-        public string Author;
-        public int Year;
-        public int PageNumber;
+        public string Title { get; set; }
+        public string Author { get; set; }
+        public int Year { get; set; }
+        public int PageNumber { get; set; }
 
         public override string ToString()
         {
