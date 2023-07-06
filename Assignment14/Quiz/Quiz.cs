@@ -9,9 +9,9 @@ namespace QuizNS
 {
     public class Quiz : IDisposable
     {
-        const string fpq = @"C:\Apps\C#\Assignment14_1\Quiz\questions.txt";
-        const string fpa = @"C:\Apps\C#\Assignment14_1\Quiz\answers.txt";
-        const string fpqn = @"C:\Apps\C#\Assignment14_1\Quiz\quizname.txt";
+        const string fpq = @"C:\Apps\C#\Assignment14\Quiz\questions.txt";
+        const string fpa = @"C:\Apps\C#\Assignment14\Quiz\answers.txt";
+        const string fpqn = @"C:\Apps\C#\Assignment14\Quiz\quizname.txt";
         private StreamWriter sw;
         private StreamReader sr;
          
